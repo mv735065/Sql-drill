@@ -1,0 +1,24 @@
+{
+  "name": "sql-drill",
+  "version": "1.0.0",
+  "description": "Design a database for an online chat system.",
+  "main": "dbs.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mv735065/Sql-drill.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mv735065/Sql-drill/issues"
+  },
+  "homepage": "https://github.com/mv735065/Sql-drill#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {}
+}

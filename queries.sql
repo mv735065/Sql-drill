@@ -2,7 +2,7 @@
 
 show tables ;
 
-create database CHAT_SYSTEM;
+create database CHAT_STORE;
 
 create table organization (
 id int auto_increment primary key,
@@ -22,7 +22,7 @@ create table user (
 id int auto_increment primary key,
 name text);
 
-CREATE TABLE Channel_Users (
+create table Channel_Users (
    user_id INT,
    channel_id INT,
    PRIMARY KEY (user_id, channel_id),
